@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5f0020/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5f0020/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 抱朴子別旨
+  date: '2015-08-29 02:24:45.994459'
+  source:
+    repository: kanripo
+    path: KR5f0020
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5f0020_000-ZTDZ.yaml, hash: 'sha256:66a3bc3f2782183a375f1f3be31c1b27487134da60e6972374bcc1a24a80cfdd'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5f0020_000-ZTDZ.markers.yaml, hash: 'sha256:a5f5a409c5704c09dc37b7b30b10bfea04845ca8f5cb549e1c56da21b541fd66'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5f0020_SJB_000-280251b
+    span:
+    - body
+    - 0
+    - 566
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b3f697e93807820d940dbb28a431f344e326ccc9872ff4d0dd7833fbfe177619
